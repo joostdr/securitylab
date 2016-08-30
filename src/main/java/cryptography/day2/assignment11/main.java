@@ -25,7 +25,6 @@ public class main {
         generateRandomAES();
         String cipherText = encryption_oracle("Dit is een String");
         System.out.println(cipherText);
-        detectECB(cipherText);
     }
 
     private static void generateRandomAES() throws Exception {
