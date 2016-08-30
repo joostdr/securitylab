@@ -1,7 +1,6 @@
-package cryptography.assignment2;
+package cryptography.day1.assignment2;
 
 import javax.xml.bind.DatatypeConverter;
-import java.util.Base64;
 
 /**
  * Created by joost on 29-8-2016.
@@ -15,7 +14,7 @@ public class main {
         byte[] finalArray = new byte[decodeString1.length];
         int i = 0;
         for(byte b : decodeString1){
-            finalArray[i] = b ^ decodeString2[i];
+           // finalArray[i] = b ^ decodeString2[i];
         }
 
         System.out.println(decodeString1);

@@ -1,4 +1,4 @@
-package cryptography.assignment1;
+package cryptography.day1.assignment1;
 
 import javax.xml.bind.DatatypeConverter;
 import java.util.Base64;
